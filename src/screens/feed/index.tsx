@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import { StatusBar, FlatList } from "react-native";
 
 import {
@@ -9,7 +9,6 @@ import {
   Post,
   Header,
   Avatar,
-  PostImage,
   Description,
   Name,
   Loading
@@ -23,6 +22,7 @@ const feed = () => {
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(false);
+  const [viewlable, setViewlable] = useState("");
   const [refreshing, setRefreshing] = useState(false);
 
   async function loadPage(pageNumber: number = page, shouldRefresh?: boolean) {
@@ -53,6 +53,10 @@ const feed = () => {
     setRefreshing(false);
   }
 
+  const handleViewlableChange = useCallback(({ changed }) => {
+    setViewlable(changed.map(({ item }) => item.id));
+  }, []);
+
   return (
     <>
       <StatusBar barStyle="dark-content" backgroundColor="dark" />
@@ -67,6 +71,8 @@ const feed = () => {
           onEndReachedThreshold={0.1}
           onRefresh={refreshList}
           refreshing={refreshing}
+          onViewableItemsChanged={handleViewlableChange}
+          viewabilityConfig={{ viewAreaCoveragePercentThreshold: 10 }}
           ListFooterComponent={loading && <Loading />}
           keyExtractor={(post: any = {}) => String(post.id)}
           renderItem={({ item }) => (
@@ -76,6 +82,7 @@ const feed = () => {
                 <Name>{item.author.name}</Name>
               </Header>
               <LazyImage
+                shouldLoad={viewlable.includes(item.id)}
                 aspectRatio={item.aspectRatio}
                 smallSource={{ uri: item.small }}
                 source={{ uri: item.image }}

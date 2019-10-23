@@ -1,25 +1,24 @@
-import * as React from "react";
-import { Component } from "react";
+import React, { Component } from "react";
 import { Image } from "react-native";
-import { Actions } from "react-native-router-flux";
 import LinearGradient from "react-native-linear-gradient";
+import { Actions } from "react-native-router-flux";
 
 // Redux
 import { connect } from "react-redux";
 
-// Visual Components
-import { Splash } from "./styles";
+//  Components
 import { colors } from "../../global";
+import { translate } from "../../locales";
+import { Splash, Welcome, Title, Info } from "./styles";
 
-const splash_logo = require("../../assets/img/react.png");
+const spinner = require("../../assets/img/react.png");
 
-class SplashScreen extends Component {
+class Main extends Component {
   componentDidMount() {
     setTimeout(() => {
       Actions.replace("feed");
     }, 1500);
   }
-
   render() {
     return (
       <LinearGradient
@@ -28,9 +27,12 @@ class SplashScreen extends Component {
       >
         <Splash>
           <Image
-            source={splash_logo}
+            source={spinner}
             style={{ maxWidth: "50%", resizeMode: "contain" }}
           />
+          <Welcome>{translate(["initial", "welcome"])}</Welcome>
+          <Title>{translate(["initial", "title"])}</Title>
+          <Info>{translate(["initial", "info"])}</Info>
         </Splash>
       </LinearGradient>
     );
@@ -44,4 +46,4 @@ const mapStateToDispatch = {};
 export default connect(
   mapStateToProps,
   mapStateToDispatch
-)(SplashScreen);
+)(Main);
