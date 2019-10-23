@@ -14,6 +14,7 @@ import {
   Name,
   Loading
 } from "./styles";
+import LazyImage from "../../components/LazyImage";
 
 const logo = require("../../assets/img/instagram.png");
 
@@ -74,8 +75,9 @@ const feed = () => {
                 <Avatar source={{ uri: item.author.avatar }} />
                 <Name>{item.author.name}</Name>
               </Header>
-              <PostImage
-                ratio={item.aspectRatio}
+              <LazyImage
+                aspectRatio={item.aspectRatio}
+                smallSource={{ uri: item.small }}
                 source={{ uri: item.image }}
               />
               <Description>
