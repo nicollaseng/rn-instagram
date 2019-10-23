@@ -1,15 +1,16 @@
-import React, {Component} from 'react';
-import {Router, Scene} from 'react-native-router-flux';
+import React, { Component } from "react";
+import { Router, Scene } from "react-native-router-flux";
 
 //Redux
-import {connect} from 'react-redux';
+import { connect } from "react-redux";
 
 // Drawer
-import Drawer from './components/Drawer';
+import Drawer from "./components/Drawer";
 
 // Screen Initial
-import SplashScreen from './screens/Splashscreen';
-import Welcome from './screens/Main';
+import Welcome from "./screens/Main";
+import Feed from "./screens/feed";
+import SplashScreen from "./screens/Splashscreen";
 
 class Routers extends Component {
   render() {
@@ -20,18 +21,14 @@ class Routers extends Component {
             // drawer={isAuthenticated || isRegisterAuthenticated ? true : false}
             drawer={false}
             hideNavBar
-            contentComponent={Drawer}>
+            contentComponent={Drawer}
+          >
             <Scene key="root" hideNavBar>
               {/* SplashScreen */}
               <Scene key="splash" component={SplashScreen} hideNavBar initial />
 
               {/* Welcome */}
-              <Scene
-                key="welcome"
-                component={Welcome}
-                hideNavBar
-                type="replace"
-              />
+              <Scene key="feed" component={Feed} hideNavBar type="replace" />
             </Scene>
           </Scene>
         </Scene>
@@ -46,5 +43,5 @@ const mapStateToDispatch = {};
 
 export default connect(
   mapStateToProps,
-  mapStateToDispatch,
+  mapStateToDispatch
 )(Routers);

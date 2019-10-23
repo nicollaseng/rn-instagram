@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/node_modules/react-native-code-push/ios/CodePush/CodePushUpdateUtils.m \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Target\ Support\ Files/CodePush/CodePush-prefix.pch \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/node_modules/react-native-code-push/ios/CodePush/CodePush.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTEventEmitter.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/SSZipArchive/SSZipArchive.modulemap \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/JWT/Core/FrameworkSupplement/JWT.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCoding.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCoding+ResultTypes.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTDeprecations.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCoding+VersionOne.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCoding+VersionTwo.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCoding+VersionThree.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithm.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTRSAlgorithm.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmFactory.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmNone.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmHSBase.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmRSBase.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmErrorDescription.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmESBase.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmAsymmetricBase.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmDataHolder.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTBase64Coder.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTAlgorithmDataHolderChain.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTClaimsSet.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTClaim.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTClaimsSetSerializer.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTClaimsSetVerifier.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTErrorDescription.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoKey.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoKeyExtractor.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoSecurity.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoSecurity+ErrorHandling.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWT.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoSecurity+ExternalRepresentation.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Private/JWT/JWTCryptoSecurity+Extraction.h

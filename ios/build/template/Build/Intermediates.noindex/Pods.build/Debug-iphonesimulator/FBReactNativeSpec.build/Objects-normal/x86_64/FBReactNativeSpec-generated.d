@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Target\ Support\ Files/FBReactNativeSpec/FBReactNativeSpec-prefix.pch \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/RCTRequired/RCTRequired/RCTRequired.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTConvertHelpers.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/Optional.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/Portability.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/CPortability.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/Traits.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/Utility.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTTypedModuleConstants.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/ReactCommon/ReactCommon/RCTTurboModule.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/ReactCommon/ReactCommon/JSCallInvoker.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/ReactCommon/ReactCommon/TurboModule.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Users/nicollasmatheus/Documents/Nicollas/class/rn-template-instagram/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h
